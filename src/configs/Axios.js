@@ -6,6 +6,7 @@ axios.defaults.paramsSerializer = params => {
 };
 
 async function Axios(method, url, params) {
+  console.log(method, url, params)
   const options = {
     method: method,
     url: url,

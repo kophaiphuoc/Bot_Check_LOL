@@ -668,3 +668,5 @@ const libraryChampion = [
         name:'Gwen'
     },
 ]
+
+module.exports = {libraryChampion}

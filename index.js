@@ -28,7 +28,10 @@ client.on('messageCreate', (message) => {
 
     switch (splitJoin) {
       case Inforuser.CheckInforChampion().name:
-        Inforuser.CheckInforChampion().execute(message, [],restOfString)
+        Inforuser.CheckInforChampion().execute(message, [], restOfString)
+        break;
+      case Inforuser.historyChampion().name:
+        Inforuser.historyChampion().execute(message, [], restOfString)
         break;
       default:
         console.log('lỗi cú pháp')
